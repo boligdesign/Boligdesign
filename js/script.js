@@ -50,9 +50,3 @@ if ("IntersectionObserver" in window) {
   revealElements.forEach((element) => element.classList.add("is-visible"));
 }
 
-if (contactForm) {
-  contactForm.addEventListener("submit", (event) => {
-    event.preventDefault();
-    alert("Takk! Dette er et testskjema. Forespørselen er ikke sendt ennå.");
-  });
-}
