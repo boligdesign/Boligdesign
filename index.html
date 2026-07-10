@@ -307,7 +307,15 @@
             <input type="hidden" name="subject" value="Ny forespørsel fra nettsiden til Bolig Design AS">
             <input type="hidden" name="from_name" value="Bolig Design AS nettside">
             <input type="hidden" name="redirect" value="https://boligdesign.github.io/Boligdesign/?sendt=1#kontakt">
-            <input type="checkbox" name="botcheck" class="botcheck" tabindex="-1" autocomplete="off">
+            <input
+  type="checkbox"
+  name="botcheck"
+  class="botcheck"
+  tabindex="-1"
+  autocomplete="off"
+  hidden
+  style="display:none !important;"
+>
             <div class="field">
               <label for="name">Navn</label>
               <input id="name" name="name" type="text" placeholder="Ditt navn" required>
