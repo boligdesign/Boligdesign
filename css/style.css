@@ -94,12 +94,16 @@ textarea {
 }
 
 .brand {
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  flex: 0 0 auto;
+  width: 260px;
 }
 
 .brand img {
+  display: block;
   width: 260px;
+  max-width: none;
   height: auto;
 }
 
@@ -800,6 +804,10 @@ textarea {
 
   .topbar__inner span:last-child {
     display: none;
+  }
+
+  .brand {
+    width: 205px;
   }
 
   .brand img {
