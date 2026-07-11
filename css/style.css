@@ -288,9 +288,8 @@ h1 {
 }
 
 .fact span {
-  color: #3f4349;
+  color: var(--muted);
   font-size: 0.92rem;
-  font-weight: 600;
 }
 
 .trust-strip {
